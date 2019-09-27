@@ -1,15 +1,16 @@
 class lead:
     def __init__(self):
-        self.person = [
+        self.obj = [
             'Bill Gates', 
             'Jeff Bezos', 
             'Elon Musk', 
-            'Linus Torvalds', 
+            'Linus Torvalds',
+            'Evan Spiegel',
             'Richard Hendricks'
         ]
  
  
-    def printLead(self):
-        print('Printing a handful of the most influental tech leaders!')
-        for __it__ in self.person:
+    def displayLead(self):
+        print('Displaying a handful of the most influental tech leaders!')
+        for __it__ in self.obj:
             print('\t%s ' % __it__)
