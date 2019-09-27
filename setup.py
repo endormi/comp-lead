@@ -5,13 +5,13 @@ with open("README.md", "r") as pkg:
 
 setuptools.setup(
     name="comp-lead",
-    version="0.0.1",
+    version="0.1.0",
     author="Endormi",
     author_email="contactendormi@gmail.com",
     description="Display a handful of tech leaders",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/endormi/comp",
+    url="https://github.com/endormi/comp-lead",
     packages=setuptools.find_packages(exclude=("tests",)),
     include_package_data=True,
     classifiers=[
