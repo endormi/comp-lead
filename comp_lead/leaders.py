@@ -5,8 +5,7 @@ class lead:
             'Jeff Bezos', 
             'Elon Musk', 
             'Linus Torvalds', 
-            'Richard Hendricks',
-            'test'
+            'Richard Hendricks'
         ]
  
  
