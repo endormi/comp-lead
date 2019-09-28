@@ -5,7 +5,7 @@ with open("README.md", "r") as pkg:
 
 setuptools.setup(
     name="comp-lead",
-    version="0.1.0",
+    version="0.1.1",
     author="Endormi",
     author_email="contactendormi@gmail.com",
     description="Display a handful of tech leaders",
