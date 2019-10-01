@@ -5,10 +5,10 @@ with open("README.md", "r") as pkg:
 
 setuptools.setup(
     name="comp-lead",
-    version="0.1.1",
+    version="0.1.15",
     author="Endormi",
     author_email="contactendormi@gmail.com",
-    description="Display a handful of tech leaders",
+    description="Display a handful of tech leaders and companies",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/endormi/comp-lead",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.5',
+    python_requires='>=3',
 )
